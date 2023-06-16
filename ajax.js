@@ -148,3 +148,13 @@ function buttonClickHandlerpatch()
 }`  
   xhr.send(params);
 }
+
+
+
+
+
+
+
+
+history.pushState('', '', '/');
+      document.forms[0].submit();
