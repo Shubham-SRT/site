@@ -20,6 +20,8 @@ function cors() {
     }
   };
   xhttp.open("OPTIONS", "https://checkout2.iherb.com/api/Carts/v2/share-url", true);
+ xhttp.getResponseHeader('Content-type', 'application/json');
+ xhttp.getResponseHeader('Access-Control-Request-Method', 'GET');
   xhttp.withCredentials = true;
   xhttp.send();
 }
